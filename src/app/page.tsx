@@ -9,7 +9,8 @@ export default function Home() {
     >
       <p
         className={css`
-          // CSS API の補完サポートはこれからとのこと（https://www.kuma-ui.com/docs/API/css）
+          // CSS API の公式の補完サポートはこれからとのこと（https://www.kuma-ui.com/docs/API/css）
+          // emotion-auto-css で補完できた😭
           text-align: center;
           font-size: 5em;
           font-weight: bold;
